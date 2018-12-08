@@ -1,0 +1,27 @@
+html{
+  background-repeat:no-repeat; font-size: 1.3em; font-weight: bold;
+}
+a{
+  text-decoration: none; color: black;
+}
+body {
+  width:90%; height:500px; margin-left: 40px; margin-right: 40px;
+}
+body > input{
+  margin-top: 50px;
+}
+body div{
+  width:100%; display: inline-block; color:black; font-size: 1.3em; font-weight: bold; margin-bottom: 10px;
+}
+body h1 {
+   margin-top: 70px;
+}
+hr {
+  border: 2px solid #524fa1;
+}
+.btn {
+  background-size: 100% 100%; width:80%; height:80px; background-repeat:no-repeat; display: table; background-image: url('./bt.png');
+}
+.btn a{
+  display: table-cell; vertical-align: middle; padding-left: 30px;
+}
